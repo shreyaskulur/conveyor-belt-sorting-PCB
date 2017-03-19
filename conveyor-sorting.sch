@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:l293d
+LIBS:conveyor-sorting-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -525,4 +527,15 @@ Wire Wire Line
 	7000 4400 6700 4400
 Text Label 6700 4400 2    60   ~ 0
 M3_Signal
+$Comp
+L L293D U?
+U 1 1 58CEFBD8
+P 7650 2200
+F 0 "U?" H 7650 2350 60  0000 C CNN
+F 1 "L293D" H 7650 2100 60  0000 C CNN
+F 2 "" H 7650 2000 60  0001 C CNN
+F 3 "" H 7650 2000 60  0001 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
